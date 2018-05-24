@@ -24,12 +24,12 @@ sudo add-apt-repository ppa:moka/daily
 sudo apt-get update
 sudo apt-get install moka-icon-theme faba-icon-theme faba-mono-icons
 
-git clone https://github.com/alin-corodescu/i3config
+git clone https://github.com/alin-corodescu/LinuxSetup
 
-cd i3config
+cd LinuxSetup/ConfigFolder
 
-cp i3/config ~/.config/i3/
-cd ..
+cp -r . ~/.config/
+cd ../..
 
 sudo apt-get install help2man
 git clone https://github.com/haikarainen/light.git
